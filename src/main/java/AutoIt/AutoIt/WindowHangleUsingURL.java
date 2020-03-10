@@ -12,10 +12,10 @@ public class WindowHangleUsingURL {
 
 	
 	System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
-	//WebDriver  driver=new ChromeDriver();
+	WebDriver  driver=new ChromeDriver();
 	//driver.get("https://the-internet.herokuapp.com/");
 	
-	driver.get("http://admin:admin@the-internet.herokuapp.com/");
+	//driver.get("http://admin:admin@the-internet.herokuapp.com/");
 	//driver.findElement(By.xpath("//a[text()='Basic Auth']")).click();
 		 
 	 }
